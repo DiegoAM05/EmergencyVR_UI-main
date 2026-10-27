@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Libre.unity
     guid: d1c84b5d2f48e7d469a4288506af483f
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
+    guid: 5e2ea9ad80f7b8e43a929371ba1458ca
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

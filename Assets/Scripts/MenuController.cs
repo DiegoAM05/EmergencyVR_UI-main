@@ -7,13 +7,17 @@ public class MenuController : MonoBehaviour
     [SerializeField] private string escenaEntrenamiento = "Entrenamiento";
     [SerializeField] private string escenaEvaluacion = "Evaluacion";
     [SerializeField] private string escenaLibre = "Libre";
-    [SerializeField] private float retardo = 0.35f; // deja sonar el clic
+    [SerializeField] private string escenaMenu = "Menu"; 
+    [SerializeField] private string escenaJuego = "Juego";
+    [SerializeField] private float retardo = 0.35f;
 
     private bool cargando;
 
     public void IniciarEntrenamiento() => Cargar(escenaEntrenamiento);
     public void IniciarEvaluacion() => Cargar(escenaEvaluacion);
     public void IniciarLibre() => Cargar(escenaLibre);
+    public void IrAlMenu() => Cargar(escenaMenu);
+    public void IrAlJuego() => Cargar(escenaJuego);
 
     private void Cargar(string escena)
     {
